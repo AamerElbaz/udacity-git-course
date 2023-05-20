@@ -1,0 +1,31 @@
+{
+    "tasks": [
+        {
+            "type": "shell",
+            "label": "Test1",
+            "command": "ECHO SOMETHING",
+            "icon": {
+                "id": "alert", "color": "terminal.ansiGreen"
+            },
+            "problemMatcher": []
+        },
+        {
+            "type": "shell",
+            "label": "Test2",
+            "command": "ECHO SOMETHING ELSE",
+            "icon": {
+                "id": "alert", "color": "terminal.ansiYellow"
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "Run multi",
+            "problemMatcher": [],
+            "dependsOn": [
+                "Test1",
+                "Test2"
+            ],
+            "dependsOrder": "sequence"
+        }
+    ]
+}

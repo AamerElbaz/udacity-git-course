@@ -1,0 +1,3 @@
+[submodule "udacity-git-course/new-git-project"]
+    path = udacity-git-course/new-git-project
+    url = https://github.com/AamerElbaz/new-git-project
